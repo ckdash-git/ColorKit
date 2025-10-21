@@ -31,8 +31,25 @@ Use the GitHub URL and a tagged version in Xcode or `Package.swift`.
 
 In Xcode: File → Add Packages… → paste the URL → select the `ColorKit` product.
 
-### CocoaPods (Podspec template)
-A `ColorKit.podspec` is included; publish with `pod trunk push` once configured.
+### CocoaPods
+Install via CocoaPods using the published pod `ColorsKit`:
+
+```ruby
+platform :ios, '13.0'
+use_frameworks!
+
+target 'App' do
+  pod 'ColorsKit', '~> 0.1'
+end
+```
+
+Then run `pod install` and import the module in your code:
+
+```swift
+import ColorKit
+```
+
+Note: The CocoaPods pod name is `ColorsKit`, but the Swift module remains `ColorKit`.
 
 ## Usage
 
