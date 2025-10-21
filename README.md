@@ -1,6 +1,6 @@
 # ColorKit
 
-[![version](https://img.shields.io/github/v/tag/ckdash-git/ColorKit?label=version)](https://github.com/ckdash-git/ColorKit/tags) [![lines of code](https://tokei.rs/b1/github/ckdash-git/ColorKit?category=code)](https://github.com/ckdash-git/ColorKit) [![license](https://img.shields.io/github/license/ckdash-git/ColorKit)](LICENSE)
+[![version](https://img.shields.io/github/v/tag/ckdash-git/ColorKit?label=version)](https://github.com/ckdash-git/ColorKit/tags) [![lines of code](https://tokei.rs/b1/github/ckdash-git/ColorKit?category=code)](https://github.com/ckdash-git/ColorKit) [![license](https://img.shields.io/github/license/ckdash-git/ColorKit)](LICENSE) [![CocoaPods](https://img.shields.io/cocoapods/v/ColorsKit.svg)](https://cocoapods.org/pods/ColorsKit)
 
 Pragmatic color utilities for SwiftUI and UIKit.
 
@@ -35,6 +35,26 @@ Add the package to Xcode or your `Package.swift` using the public repo and a tag
 ```
 
 In Xcode: File → Add Packages… → paste the URL → add the `ColorKit` product.
+
+## Installation (CocoaPods)
+Add to your Podfile (iOS example):
+
+```ruby
+platform :ios, '13.0'
+use_frameworks!
+
+target 'App' do
+  pod 'ColorsKit', '~> 0.1'
+end
+```
+
+Then run `pod install` and import the module:
+
+```swift
+import ColorKit
+```
+
+Note: The CocoaPods pod name is `ColorsKit`, but the Swift module is `ColorKit`.
 
 ## Quick Start
 ```swift
@@ -95,6 +115,7 @@ A tiny command‑line demo lives in `Example/ConsumerSample/`.
 ## Platform Notes
 - `Color.dynamic` bridges to `Color(uiColor:)` on iOS/tvOS.
 - On iOS/tvOS < 15, `Color.dynamic` falls back to the light variant.
+- CocoaPods support: iOS and macOS in `0.1.0`; tvOS/watchOS coming in a follow‑up release.
 
 ## Versioning
 This repo follows semantic versioning. Start with `0.1.0` and evolve via tags.
