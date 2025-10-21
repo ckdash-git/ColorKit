@@ -17,7 +17,7 @@ Use the GitHub URL and a tagged version in Xcode or `Package.swift`.
 
 ```swift
 .dependencies: [
-    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.0")
+    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.1")
 ]
 .targets: [
     .target(

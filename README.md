@@ -1,10 +1,53 @@
 # ColorKit
 
-[![version](https://img.shields.io/github/v/tag/ckdash-git/ColorKit?label=version)](https://github.com/ckdash-git/ColorKit/tags) [![lines of code](https://tokei.rs/b1/github/ckdash-git/ColorKit?category=code)](https://github.com/ckdash-git/ColorKit) [![license](https://img.shields.io/github/license/ckdash-git/ColorKit)](LICENSE) [![CocoaPods](https://img.shields.io/cocoapods/v/ColorsKit.svg)](https://cocoapods.org/pods/ColorsKit)
+[![version](https://img.shields.io/github/v/tag/ckdash-git/ColorKit?label=version)](https://github.com/ckdash-git/ColorKit/tags) [![lines of code](https://tokei.rs/b1/github/ckdash-git/ColorKit?category=code)](https://github.com/ckdash-git/ColorKit) [![license](https://img.shields.io/github/license/ckdash-git/ColorKit)](https://github.com/ckdash-git/ColorKit/blob/main/LICENSE)
 
 Pragmatic color utilities for SwiftUI and UIKit.
 
 ColorKit helps you parse hex colors, check accessibility contrast, generate palettes, build gradients, and simulate color‑vision deficiencies — all with a tiny, focused API that feels at home in Swift.
+
+## Installation (SPM)
+Add the package to Xcode or your `Package.swift` using the public repo and a tag.
+
+- URL: `https://github.com/ckdash-git/ColorKit.git`
+- Minimum platforms: iOS 13+, macOS 12+, tvOS 13+, watchOS 6+
+
+```swift
+// Package.swift
+.dependencies: [
+    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.1")
+]
+.targets: [
+    .target(
+        name: "App",
+        dependencies: [
+            .product(name: "ColorKit", package: "ColorKit")
+        ]
+    )
+]
+```
+
+In Xcode: File → Add Packages… → paste the URL → add the `ColorKit` product.
+
+## Installation (CocoaPods)
+Add to your Podfile (iOS example):
+
+```ruby
+platform :ios, '13.0'
+use_frameworks!
+
+target 'App' do
+  pod 'ColorsKit', '~> 0.1'
+end
+```
+
+Then run `pod install` and import the module:
+
+```swift
+import ColorKit
+```
+
+Note: The CocoaPods pod name is `ColorsKit`, but the Swift module is `ColorKit`.
 
 ## Features
 - Hex parsing to and from `RGBA` (`#RGB`, `#RGBA`, `#RRGGBB`, `#RRGGBBAA`)
@@ -22,7 +65,7 @@ Add the package to Xcode or your `Package.swift` using the public repo and a tag
 ```swift
 // Package.swift
 .dependencies: [
-    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.0")
+    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.1")
 ]
 .targets: [
     .target(
