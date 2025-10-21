@@ -1,9 +1,9 @@
-# ColorKit API Reference
+# ColorsKit API Reference
 
-This document provides a high-level overview of the ColorKit modules and key types.
+This document provides a high-level overview of the ColorsKit modules and key types.
 
 - Platforms: iOS 13+, macOS 12+, tvOS 13+, watchOS 6+
-- Repo: `https://github.com/ckdash-git/ColorKit.git`
+- Repo: `https://github.com/ckdash-git/ColorsKit.git`
 
 ## Modules
 

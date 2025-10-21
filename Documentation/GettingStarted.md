@@ -1,6 +1,6 @@
-# Getting Started with ColorKit
+# Getting Started with ColorsKit
 
-ColorKit simplifies color management in iOS apps by providing:
+ColorsKit simplifies color management in iOS apps by providing:
 - Hex-based color creation for UIKit and SwiftUI
 - Dynamic theming and dark/light auto-adaptation
 - Accessibility contrast checking
@@ -12,24 +12,24 @@ ColorKit simplifies color management in iOS apps by providing:
 ### Swift Package Manager
 Use the GitHub URL and a tagged version in Xcode or `Package.swift`.
 
-- URL: `https://github.com/ckdash-git/ColorKit.git`
+- URL: `https://github.com/ckdash-git/ColorsKit.git`
 - Example `Package.swift`:
 
 ```swift
 .dependencies: [
-    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.2")
+    .package(url: "https://github.com/ckdash-git/ColorsKit.git", from: "0.1.2")
 ]
 .targets: [
     .target(
         name: "App",
         dependencies: [
-            .product(name: "ColorKit", package: "ColorKit")
+            .product(name: "ColorsKit", package: "ColorsKit")
         ]
     )
 ]
 ```
 
-In Xcode: File → Add Packages… → paste the URL → select the `ColorKit` product.
+In Xcode: File → Add Packages… → paste the URL → select the `ColorsKit` product.
 
 ### CocoaPods
 Install via CocoaPods using the published pod `ColorsKit`:
@@ -46,15 +46,13 @@ end
 Then run `pod install` and import the module in your code:
 
 ```swift
-import ColorKit
+import ColorsKit
 ```
-
-Note: The CocoaPods pod name is `ColorsKit`, but the Swift module remains `ColorKit`.
 
 ## Usage
 
 ```swift
-import ColorKit
+import ColorsKit
 
 // Hex -> SwiftUI Color
 let primary = Color(hex: "#0A84FF")

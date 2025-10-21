@@ -16,7 +16,7 @@ let package = Package(
         .executableTarget(
             name: "ConsumerSample",
             dependencies: [
-                .product(name: "ColorKit", package: "ColorKit")
+                .product(name: "ColorsKit", package: "ColorsKit")
             ]
         )
     ]

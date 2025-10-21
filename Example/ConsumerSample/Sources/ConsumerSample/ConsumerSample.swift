@@ -1,5 +1,5 @@
 import Foundation
-import ColorKit
+import ColorsKit
 
 @main
 struct ConsumerSample {

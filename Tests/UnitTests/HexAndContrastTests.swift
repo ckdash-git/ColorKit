@@ -1,5 +1,5 @@
 import XCTest
-@testable import ColorKit
+@testable import ColorsKit
 
 final class HexAndContrastTests: XCTestCase {
     func testHexParsingShortRGB() throws {
