@@ -1,22 +1,22 @@
 # iOSAppDemo
 
-A minimal SwiftUI demo app showcasing ColorKit usage.
+A minimal SwiftUI demo app showcasing ColorsKit usage.
 
 ## Create the demo
 
 1. Open Xcode > File > New > Project > iOS App (SwiftUI).
-2. Name: ColorKitDemo, Interface: SwiftUI, Language: Swift.
+2. Name: ColorsKitDemo, Interface: SwiftUI, Language: Swift.
 3. Add this package via File > Add Packages... and search your repo URL.
 4. In `ContentView.swift`:
 
 ```swift
 import SwiftUI
-import ColorKit
+import ColorsKit
 
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 24) {
-            Text("ColorKit Demo")
+            Text("ColorsKit Demo")
                 .font(.title)
                 .foregroundStyle(Color.dynamic(lightHex: "#1C1C1E", darkHex: "#FFFFFF"))
 

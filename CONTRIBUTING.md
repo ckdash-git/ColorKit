@@ -1,4 +1,4 @@
-# Contributing to ColorKit
+# Contributing to ColorsKit
 
 Thanks for considering a contribution! This project welcomes issues and pull requests.
 

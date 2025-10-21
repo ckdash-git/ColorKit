@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ColorKit",
+    name: "ColorsKit",
     platforms: [
         .iOS(.v13),
         .macOS(.v12),
@@ -13,8 +13,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "ColorKit",
-            targets: ["ColorKit"]
+            name: "ColorsKit",
+            targets: ["ColorsKit"]
         ),
     ],
     targets: [
@@ -43,14 +43,14 @@ let package = Package(
         ),
         // Umbrella target that re-exports all modules for a single import
         .target(
-            name: "ColorKit",
+            name: "ColorsKit",
             dependencies: ["ColorCore", "ColorUtilities", "ColorExtensions", "ColorPalettes"],
-            path: "Sources/ColorKit"
+            path: "Sources/ColorsKit"
         ),
         // Tests
         .testTarget(
             name: "UnitTests",
-            dependencies: ["ColorKit"],
+            dependencies: ["ColorsKit"],
             path: "Tests/UnitTests"
         ),
 
