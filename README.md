@@ -1,6 +1,6 @@
 # ColorKit
 
-[![version](https://img.shields.io/github/v/tag/ckdash-git/ColorKit?label=version)](https://github.com/ckdash-git/ColorKit/tags) [![lines of code](https://img.shields.io/tokei/lines/github/ckdash-git/ColorKit)](https://github.com/ckdash-git/ColorKit) [![license](https://img.shields.io/github/license/ckdash-git/ColorKit)](LICENSE)
+[![version](https://img.shields.io/github/v/tag/ckdash-git/ColorKit?label=version)](https://github.com/ckdash-git/ColorKit/tags) [![lines of code](https://tokei.rs/b1/github/ckdash-git/ColorKit?category=code)](https://github.com/ckdash-git/ColorKit) [![license](https://img.shields.io/github/license/ckdash-git/ColorKit)](LICENSE)
 
 Pragmatic color utilities for SwiftUI and UIKit.
 
