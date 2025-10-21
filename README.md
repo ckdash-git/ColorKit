@@ -43,7 +43,7 @@ let fg = try HexColorFormatter.parse("#1A73E8")
 let bg = try HexColorFormatter.parse("#FFFFFF")
 
 // Contrast ratio + WCAG
-let ratio = ColorMath.contrastRatio(foreground: fg, background: bg)
+let ratio = ColorMath.contrastRatio(fg, bg)
 let isAA = Accessibility.meets(.AA, foreground: fg, background: bg)
 let isAAA = Accessibility.meets(.AAA, foreground: fg, background: bg)
 
