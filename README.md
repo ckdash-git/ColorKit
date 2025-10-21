@@ -15,7 +15,7 @@ Add the package to Xcode or your `Package.swift` using the public repo and a tag
 ```swift
 // Package.swift
 .dependencies: [
-    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.1")
+    .package(url: "https://github.com/ckdash-git/ColorsKit.git", from: "0.1.2")
 ]
 .targets: [
     .target(
@@ -65,7 +65,7 @@ Add the package to Xcode or your `Package.swift` using the public repo and a tag
 ```swift
 // Package.swift
 .dependencies: [
-    .package(url: "https://github.com/ckdash-git/ColorKit.git", from: "0.1.1")
+    .package(url: "https://github.com/ckdash-git/ColorsKit.git", from: "0.1.2")
 ]
 .targets: [
     .target(
@@ -163,8 +163,7 @@ A tiny command‑line demo lives in `Example/ConsumerSample/`.
 ## Versioning
 This repo follows semantic versioning. Start with `0.1.0` and evolve via tags.
 
-## License
-MIT. See `LICENSE`.
+## License & Trademarks
+Apache-2.0. See `LICENSE` and `NOTICE`. "ColorsKit" is a trademark — see `TRADEMARKS.md`.
 
-## Contributing
-Issues and PRs are welcome. If you have an idea or find a bug, open an issue with a short repro or proposal. Thank you!
+Community: See `CONTRIBUTING.md` (DCO) and `CODE_OF_CONDUCT.md`.
