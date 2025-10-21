@@ -1,0 +1,11 @@
+fastlane_version '2.220.0'
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Run swift build & test"
+  lane :ci do
+    sh("swift build")
+    sh("swift test")
+  end
+end

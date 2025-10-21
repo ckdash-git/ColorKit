@@ -1,0 +1,13 @@
+.DS_Store
+# Ignore all build artifacts
+.build/
+**/.build/
+# Ignore SwiftPM workspace metadata
+.swiftpm/
+# Xcode user-specific files
+xcuserdata/
+DerivedData/
+# Extra SwiftPM records and netrc
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
