@@ -1,5 +1,7 @@
 # ColorKit
 
+[![version](https://img.shields.io/github/v/tag/ckdash-git/ColorKit?label=version)](https://github.com/ckdash-git/ColorKit/tags) [![lines of code](https://img.shields.io/tokei/lines/github/ckdash-git/ColorKit)](https://github.com/ckdash-git/ColorKit) [![license](https://img.shields.io/github/license/ckdash-git/ColorKit)](LICENSE)
+
 Pragmatic color utilities for SwiftUI and UIKit.
 
 ColorKit helps you parse hex colors, check accessibility contrast, generate palettes, build gradients, and simulate color‑vision deficiencies — all with a tiny, focused API that feels at home in Swift.
