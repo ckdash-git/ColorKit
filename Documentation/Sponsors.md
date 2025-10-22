@@ -38,4 +38,4 @@ Sponsors are recognized in:
 
 ---
 
-*Last updated: $(date '+%Y-%m-%d')*
+*Last updated: 2025-10-22*

@@ -184,7 +184,7 @@ except Exception as e:
 " >> "$SPONSORS_FILE"
     fi
     
-    cat >> "$SPONSORS_FILE" << 'EOF'
+    cat >> "$SPONSORS_FILE" << EOF
 
 ## Become a Sponsor
 
@@ -197,10 +197,10 @@ Support ColorsKit development by becoming a sponsor:
 
 | Tier | Monthly | Benefits |
 |------|---------|----------|
-| ☕ **Coffee** | $5 | Sponsor badge, early access to releases |
-| 🌟 **Supporter** | $15 | Above + priority issue responses |
-| 🚀 **Advocate** | $50 | Above + feature request priority |
-| 💎 **Champion** | $100+ | Above + direct consultation access |
+| ☕ **Coffee** | \$5 | Sponsor badge, early access to releases |
+| 🌟 **Supporter** | \$15 | Above + priority issue responses |
+| 🚀 **Advocate** | \$50 | Above + feature request priority |
+| 💎 **Champion** | \$100+ | Above + direct consultation access |
 
 ## Recognition
 
