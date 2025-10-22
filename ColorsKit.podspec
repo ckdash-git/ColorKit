@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ColorsKit'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Comprehensive color management for iOS: hex APIs, theming, accessibility, gradients.'
   s.description      = <<-DESC
 ColorsKit simplifies color usage in iOS apps by providing:
@@ -21,5 +21,5 @@ ColorsKit simplifies color usage in iOS apps by providing:
   s.source_files     = 'Sources/**/*.{swift}'
   s.requires_arc     = true
   s.module_name      = 'ColorsKit'
-  s.documentation_url = 'https://github.com/ckdash-git/ColorsKit#readme'
+  s.documentation_url = 'https://raw.githubusercontent.com/ckdash-git/ColorsKit/main/README.md'
 end
