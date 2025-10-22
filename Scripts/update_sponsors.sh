@@ -6,6 +6,12 @@ README_FILE="README.md"
 SPONSORS_FILE="Documentation/Sponsors.md"
 TEMP_FILE=$(mktemp)
 
+# Cleanup trap to remove temp file on exit, error, or interrupt
+cleanup() {
+    rm -f "$TEMP_FILE"
+}
+trap cleanup EXIT
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
