@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ColorsKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'Comprehensive color management for iOS: hex APIs, theming, accessibility, gradients.'
   s.description      = <<-DESC
 ColorsKit simplifies color usage in iOS apps by providing:
