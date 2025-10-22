@@ -1,0 +1,17 @@
+{
+  "sponsors": [],
+  "total_sponsors": 0,
+  "monthly_goal": 500,
+  "current_monthly": 0,
+  "last_updated": "2024-01-01",
+  "template": {
+    "name": "Sponsor Name",
+    "tier": "Coffee|Supporter|Advocate|Champion",
+    "url": "https://github.com/username",
+    "avatar": "https://github.com/username.png",
+    "since": "2024-01",
+    "amount": 5,
+    "platform": "github|buymeacoffee",
+    "public": true
+  }
+}

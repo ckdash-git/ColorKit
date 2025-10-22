@@ -47,6 +47,57 @@ Then run `pod install` and import the module:
 import ColorsKit
 ```
 
+## 💖 Support This Project
+
+ColorsKit is an open source project that helps developers build better color experiences in their apps. Your support helps maintain and improve this library for the entire Swift community.
+
+### Why Sponsor?
+
+- **🚀 Faster Development**: Sponsorship enables dedicated time for new features, bug fixes, and performance improvements
+- **📚 Better Documentation**: More comprehensive guides, examples, and API documentation
+- **🔧 Enhanced Tooling**: Additional utilities, CLI tools, and developer experience improvements
+- **🌟 Community Growth**: Support for community contributions, issue triage, and user support
+
+### Sponsorship Options
+
+<div align="center">
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/ckdash-git)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/ckdash)
+
+</div>
+
+#### 🎯 GitHub Sponsors
+- **Monthly Support**: Recurring sponsorship with tiered benefits
+- **One-time Contributions**: Flexible support options
+- **Sponsor Recognition**: Listed in project documentation and releases
+- **Early Access**: Preview new features and provide feedback
+
+#### ☕ Buy Me a Coffee
+- **Quick Support**: Simple one-time or recurring donations
+- **Personal Messages**: Send encouragement and feature requests
+- **Community Building**: Join a supportive community of users
+- **Flexible Amounts**: Choose what works for your budget
+
+### Sponsor Benefits
+
+| Tier | Monthly | Benefits |
+|------|---------|----------|
+| ☕ **Coffee** | $5 | Sponsor badge, early access to releases |
+| 🌟 **Supporter** | $15 | Above + priority issue responses |
+| 🚀 **Advocate** | $50 | Above + feature request priority |
+| 💎 **Champion** | $100+ | Above + direct consultation access |
+
+### Current Sponsors
+
+*Thank you to all our amazing sponsors! Your support makes ColorsKit possible.*
+
+<!-- SPONSORS_START -->
+*Become our first sponsor and see your name here!*
+<!-- SPONSORS_END -->
+
+---
+
 ## Quick Start
 ```swift
 import ColorsKit
