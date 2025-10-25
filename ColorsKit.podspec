@@ -1,15 +1,19 @@
 Pod::Spec.new do |s|
   s.name             = 'ColorsKit'
-  s.version          = '0.1.5'
-  s.summary          = 'Comprehensive color management for iOS: hex APIs, theming, accessibility, gradients.'
+  s.version          = '0.2.0'
+  s.summary          = 'Advanced color management for iOS: perceptual color science, data visualization, color harmony, psychology.'
   s.description      = <<-DESC
-ColorsKit simplifies color usage in iOS apps by providing:
-- Hex parsing/formatting
-- UIKit/SwiftUI extensions
+ColorsKit provides comprehensive color management for iOS apps with advanced features:
+- Hex parsing/formatting and UIKit/SwiftUI extensions
 - Dynamic theming with dark/light adaptation
-- Accessibility contrast checking
-- Palette generators and gradient builders
-- Color-blindness simulation tools
+- Accessibility contrast checking and color-blindness simulation
+- Data visualization palettes (Viridis, Plasma, scientific colormaps)
+- Perceptual color mathematics (Delta E, color space conversions)
+- Color harmony generation (complementary, analogous, triadic)
+- Advanced color blending modes (multiply, screen, overlay, etc.)
+- Color psychology engine for emotion-based color selection
+- Temperature gradients and thermal imaging colors
+- Professional gradient builders and palette generators
   DESC
   s.homepage         = 'https://github.com/ckdash-git/ColorsKit'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
