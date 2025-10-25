@@ -116,6 +116,130 @@ let palette = PaletteGenerator.generate(from: "#1A73E8", steps: 6, range: 0.25)
 
 // Simulate color‑vision deficiency
 let protanopia = ColorBlindnessSimulator.simulate(.protanopia, rgba: fg)
+
+// 🚀 Advanced Features
+// Data visualization palettes
+let scientificColors = DataVisualizationPalettes.viridis
+let heatmapColors = DataVisualizationPalettes.heatmap
+
+// Color harmony generation
+let complementary = ColorHarmony.complementary(from: "#1A73E8")
+let analogous = ColorHarmony.analogous(from: "#1A73E8", count: 5)
+
+// Color psychology
+let calmColors = ColorPsychology.colorsFor(emotion: .calm)
+let primaryEmotion = ColorPsychology.primaryEmotion(for: fg)
+
+// Perceptual color operations
+let perceptualGradient = PerceptualColorMath.perceptualGradient(from: fg, to: bg, steps: 10)
+let deltaE = PerceptualColorMath.deltaE2000(fg, bg)
+```
+
+## 🚀 Advanced Features
+
+ColorsKit goes beyond basic color utilities with powerful advanced features for professional color work:
+
+### 📊 Data Visualization Palettes
+Professional color schemes optimized for charts, graphs, and scientific visualization:
+
+```swift
+// Sequential palettes for continuous data
+let blues = DataVisualizationPalettes.blues
+let greens = DataVisualizationPalettes.greens
+
+// Diverging palettes for data with meaningful center
+let redBlue = DataVisualizationPalettes.redBlue
+let purpleGreen = DataVisualizationPalettes.purpleGreen
+
+// Scientific colormaps (perceptually uniform)
+let viridis = DataVisualizationPalettes.viridis
+let plasma = DataVisualizationPalettes.plasma
+
+// Accessibility-friendly palettes
+let colorblindSafe = DataVisualizationPalettes.colorblindSafe
+let highContrast = DataVisualizationPalettes.highContrast
+```
+
+### 🔬 Perceptual Color Mathematics
+Advanced color space conversions and perceptually uniform operations:
+
+```swift
+// Convert between color spaces
+let xyz = ColorSpaceConverter.rgbaToXYZ(rgba)
+let lab = ColorSpaceConverter.xyzToLAB(xyz)
+let luv = ColorSpaceConverter.xyzToLUV(xyz)
+
+// Perceptually uniform gradients
+let gradient = PerceptualColorMath.perceptualGradient(from: color1, to: color2, steps: 10)
+
+// Perceptual color blending
+let blended = PerceptualColorMath.perceptualBlend(color1, color2, ratio: 0.5)
+
+// Delta E color difference (CIE Delta E 2000)
+let difference = PerceptualColorMath.deltaE2000(color1, color2)
+```
+
+### 🎨 Color Harmony Generation
+Generate harmonious color schemes based on color theory:
+
+```swift
+// Generate complementary colors
+let complementary = ColorHarmony.complementary(from: "#FF6B6B")
+
+// Create analogous color schemes
+let analogous = ColorHarmony.analogous(from: "#4ECDC4", count: 5)
+
+// Generate triadic and tetradic schemes
+let triadic = ColorHarmony.triadic(from: "#45B7D1")
+let tetradic = ColorHarmony.tetradic(from: "#96CEB4")
+
+// Split complementary for balanced contrast
+let splitComplementary = ColorHarmony.splitComplementary(from: "#FFEAA7")
+```
+
+### 🎭 Advanced Color Blending
+Professional blend modes for sophisticated color mixing:
+
+```swift
+// Multiple blend modes available
+let multiplied = BlendMode.multiply.blend(base: baseColor, overlay: overlayColor)
+let screened = BlendMode.screen.blend(base: baseColor, overlay: overlayColor)
+let overlayed = BlendMode.overlay.blend(base: baseColor, overlay: overlayColor)
+
+// Soft light, hard light, color dodge, color burn, and more
+let softLight = BlendMode.softLight.blend(base: baseColor, overlay: overlayColor)
+let colorDodge = BlendMode.colorDodge.blend(base: baseColor, overlay: overlayColor)
+```
+
+### 🧠 Color Psychology Engine
+Emotion-based color generation and analysis:
+
+```swift
+// Generate colors for specific emotions
+let calmColors = ColorPsychology.colorsFor(emotion: .calm)
+let energeticColors = ColorPsychology.colorsFor(emotion: .energetic)
+let professionalColors = ColorPsychology.colorsFor(emotion: .professional)
+
+// Analyze emotional properties of colors
+let primaryEmotion = ColorPsychology.primaryEmotion(for: rgba)
+let emotionalProfile = ColorPsychology.emotionalProfile(for: rgba)
+
+// Generate multi-emotion palettes
+let palette = ColorPsychology.generatePalette(for: [.trustworthy, .creative], count: 8)
+```
+
+### 🌡️ Temperature & Advanced Gradients
+Multiple interpolation methods and temperature-based color schemes:
+
+```swift
+// Different interpolation methods
+let linearGradient = GradientGenerator.generate(from: color1, to: color2, steps: 10, method: .linear)
+let perceptualGradient = GradientGenerator.generate(from: color1, to: color2, steps: 10, method: .perceptual)
+let hslGradient = GradientGenerator.generate(from: color1, to: color2, steps: 10, method: .hsl)
+
+// Temperature-based gradients
+let thermal = TemperatureGradient.thermal(steps: 20)
+let coolToWarm = TemperatureGradient.coolToWarm(steps: 15)
 ```
 
 ### SwiftUI
@@ -148,11 +272,31 @@ A tiny command‑line demo lives in `Example/ConsumerSample/`.
 - Run: `cd Example/ConsumerSample && swift run`
 - Shows: hex parsing, contrast ratio, palette generation, and color‑blindness simulation.
 
+## 📱 Comprehensive iOS Demo App
+Explore all ColorsKit features with our full-featured SwiftUI demo app in `Example/iOSAppDemo/`:
+
+### Features Showcased:
+- **🎨 Color Harmony**: Generate complementary, analogous, triadic, and tetradic color schemes
+- **🔬 Perceptual Colors**: Color space conversions, perceptual gradients, and Delta E analysis  
+- **🎭 Blending Modes**: 12 different blend modes with real-time preview
+- **🧠 Color Psychology**: Emotion-based color generation and analysis
+- **📊 Data Visualization**: Scientific colormaps, heatmaps, and specialized gradients
+- **🌡️ Temperature Gradients**: Multiple interpolation methods and thermal imaging colors
+
+### Running the Demo:
+```bash
+cd Example/iOSAppDemo
+open ColorsKitDemo.xcodeproj
+# Build and run in Xcode or iOS Simulator
+```
+
+The demo app serves as both a showcase and reference implementation for integrating ColorsKit's advanced features into iOS applications.
+
 ## Modules at a Glance
-- `ColorCore`: `RGBA`, `HexColorFormatter`, `ColorMath`, `Accessibility`, `Theme`, `ThemeManager`
-- `ColorUtilities`: `PaletteGenerator`, `AccessibilityUtils`, `ColorBlindnessSimulator`
-- `ColorExtensions`: SwiftUI/UIColor helpers, gradients
-- `ColorPalettes`: Predefined themes and palette helpers
+- `ColorCore`: `RGBA`, `HexColorFormatter`, `ColorMath`, `Accessibility`, `Theme`, `ThemeManager`, `PerceptualColorMath`, `ColorSpaceConverter`, `ColorHarmony`, `BlendMode`
+- `ColorUtilities`: `PaletteGenerator`, `AccessibilityUtils`, `ColorBlindnessSimulator`, `ColorPsychology`, `EmotionalCategory`, `GradientGenerator`, `TemperatureGradient`, `WhiteBalancePresets`
+- `ColorExtensions`: SwiftUI/UIColor helpers, gradients, `GradientBuilder`, `SwiftUIGradientBuilder`
+- `ColorPalettes`: `DataVisualizationPalettes`, predefined themes (`defaultLight`, `defaultDark`, `materialBlue`), scientific colormaps
 
 ## Platform Notes
 - `Color.dynamic` bridges to `Color(uiColor:)` on iOS/tvOS.
