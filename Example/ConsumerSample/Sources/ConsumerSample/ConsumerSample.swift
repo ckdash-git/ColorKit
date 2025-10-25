@@ -22,7 +22,7 @@ struct ConsumerSample {
         print("WCAG AA normal text: \(Accessibility.meets(.AA, foreground: white, background: black))")
 
         // 3) Palettes
-        let theme = Palettes.defaultLight
+        let theme = defaultLight
         if let primaryHex = theme.colors["primary"], let primaryRGBA = try? HexColorFormatter.parse(primaryHex) {
             print("DefaultLight primary hex: \(primaryHex) -> rgba r=\(String(format: "%.3f", primaryRGBA.r))")
         }

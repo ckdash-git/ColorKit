@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002000000000000001 /* App.swift */; };
+		A1000003000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004000000000000001 /* ContentView.swift */; };
+		A1000005000000000000001 /* ColorHarmonyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006000000000000001 /* ColorHarmonyView.swift */; };
+		A1000007000000000000001 /* PerceptualColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000008000000000000001 /* PerceptualColorsView.swift */; };
+		A1000009000000000000001 /* BlendingModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000010000000000000001 /* BlendingModesView.swift */; };
+		A1000011000000000000001 /* ColorPsychologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012000000000000001 /* ColorPsychologyView.swift */; };
+		A1000013000000000000001 /* DataVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014000000000000001 /* DataVisualizationView.swift */; };
+		A1000015000000000000001 /* TemperatureGradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000016000000000000001 /* TemperatureGradientsView.swift */; };
+		A1000017000000000000001 /* ColorsKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1000018000000000000001 /* ColorsKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000019000000000000001 /* ColorsKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000002000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		A1000004000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1000006000000000000001 /* ColorHarmonyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHarmonyView.swift; sourceTree = "<group>"; };
+		A1000008000000000000001 /* PerceptualColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerceptualColorsView.swift; sourceTree = "<group>"; };
+		A1000010000000000000001 /* BlendingModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingModesView.swift; sourceTree = "<group>"; };
+		A1000012000000000000001 /* ColorPsychologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPsychologyView.swift; sourceTree = "<group>"; };
+		A1000014000000000000001 /* DataVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVisualizationView.swift; sourceTree = "<group>"; };
+		A1000016000000000000001 /* TemperatureGradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureGradientsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000020000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000017000000000000001 /* ColorsKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1000021000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A1000022000000000000001 /* ColorsKitDemo */,
+				A1000023000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000022000000000000001 /* ColorsKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1000002000000000000001 /* App.swift */,
+				A1000004000000000000001 /* ContentView.swift */,
+				A1000006000000000000001 /* ColorHarmonyView.swift */,
+				A1000008000000000000001 /* PerceptualColorsView.swift */,
+				A1000010000000000000001 /* BlendingModesView.swift */,
+				A1000012000000000000001 /* ColorPsychologyView.swift */,
+				A1000014000000000000001 /* DataVisualizationView.swift */,
+				A1000016000000000000001 /* TemperatureGradientsView.swift */,
+			);
+			path = ColorsKitDemo;
+			sourceTree = "<group>";
+		};
+		A1000023000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000019000000000000001 /* ColorsKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000024000000000000001 /* ColorsKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000025000000000000001 /* Build configuration list for PBXNativeTarget "ColorsKitDemo" */;
+			buildPhases = (
+				A1000026000000000000001 /* Sources */,
+				A1000020000000000000001 /* Frameworks */,
+				A1000027000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorsKitDemo;
+			packageProductDependencies = (
+				A1000018000000000000001 /* ColorsKit */,
+			);
+			productName = ColorsKitDemo;
+			productReference = A1000019000000000000001 /* ColorsKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000028000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1000024000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1000029000000000000001 /* Build configuration list for PBXProject "ColorsKitDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000021000000000000001;
+			packageReferences = (
+				A1000030000000000000001 /* XCLocalSwiftPackageReference "../../" */,
+			);
+			productRefGroup = A1000023000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000024000000000000001 /* ColorsKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000027000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000026000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001000000000000001 /* App.swift in Sources */,
+				A1000003000000000000001 /* ContentView.swift in Sources */,
+				A1000005000000000000001 /* ColorHarmonyView.swift in Sources */,
+				A1000007000000000000001 /* PerceptualColorsView.swift in Sources */,
+				A1000009000000000000001 /* BlendingModesView.swift in Sources */,
+				A1000011000000000000001 /* ColorPsychologyView.swift in Sources */,
+				A1000013000000000000001 /* DataVisualizationView.swift in Sources */,
+				A1000015000000000000001 /* TemperatureGradientsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000031000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000032000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1000033000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ColorsKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000034000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ColorsKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000029000000000000001 /* Build configuration list for PBXProject "ColorsKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000031000000000000001 /* Debug */,
+				A1000032000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000025000000000000001 /* Build configuration list for PBXNativeTarget "ColorsKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000033000000000000001 /* Debug */,
+				A1000034000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A1000030000000000000001 /* XCLocalSwiftPackageReference "../../" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1000018000000000000001 /* ColorsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1000030000000000000001 /* XCLocalSwiftPackageReference "../../" */;
+			productName = ColorsKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A1000028000000000000001 /* Project object */;
+}
